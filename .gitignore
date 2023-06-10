@@ -1,2 +1,2 @@
-./data/
-./src/unet_final.pt
+/data
+/src/unet_final.pt
