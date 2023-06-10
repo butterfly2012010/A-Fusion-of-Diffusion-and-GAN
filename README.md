@@ -1,1 +1,1 @@
-A Fusion of Diffusion and GAN
+# A Fusion of Diffusion and GAN
