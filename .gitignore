@@ -1,2 +1,4 @@
 /data
 /src/unet_final.pt
+/src/generator_0.pt
+/src/discrimina_0.pt
