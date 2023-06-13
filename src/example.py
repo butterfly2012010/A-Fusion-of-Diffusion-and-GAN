@@ -21,16 +21,18 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # ddp.ddptrain(epochs)
 
 
-########################
+# ########################
 # # LOAD MODEL
 # ddp.MODEL.load_state_dict(torch.load("unet_final.pt"))
 # ddp.MODEL.to(device)
 
 # # 測試
-#dataloader=DatasetLoader("./dataset/train/good",batch=ddp.BATCH_SIZE,size=ddp.IMG_SIZE)
+# dataloader=DatasetLoader("./dataset/train/good",batch=ddp.BATCH_SIZE,size=ddp.IMG_SIZE)
 # image = next(iter(dataloader))[0]
 # image=torch.unsqueeze(image,0)
 # t0=ddp.show_tensor_image(image.detach().to('cpu'))
+
+
 
 # # 加躁的圖 BATCH 要設定當前的圖片數量(len(image))
 # image=ddp.forward(image,batch=1)
